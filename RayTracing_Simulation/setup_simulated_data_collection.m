@@ -5,7 +5,7 @@ function setup_simulated_data_collection()
     close all; clear all; clc;
 
 
-    homepath = "/Volumes/GoogleDrive/My Drive/RFOwlet/AoA/Solving_Multipath/Exported_HFSS_Antenna_Pattern/";
+    homepath = "/Exported_HFSS_Antenna_Pattern/";
     filename = "pattern_2_2400Mhz.csv";
 
     % [d2] = create_antenna_from_HFSS_data(homepath+filename);

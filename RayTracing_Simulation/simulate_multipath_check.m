@@ -87,7 +87,7 @@ end
 
 function run_simulation(environment_type, location_number)
     tic;
-    homepath = "/Volumes/GoogleDrive/My Drive/RFOwlet/AoA/Solving_Multipath/Exported_HFSS_Antenna_Pattern/";
+    homepath = "/Exported_HFSS_Antenna_Pattern/";
 
     % antenna_element{1} = phased.IsotropicAntennaElement('FrequencyRange',[2.35e9 2.45e9]);
     % antenna_element{2} = dipole('Length', 0.059, 'Width', 0.01, 'Tilt', 0);
